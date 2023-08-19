@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url(Grade\ Grey.jpg);
+    font-family: 'Poppins', sans-serif;
+    body{
+        background-image: url(Royal\ Blue\ +\ Petrol.jpg);
+        width: 80%;
+        margin: 2rem auto;
+        border-radius: 20px;
+        padding: 1rem 2rem;
+       
+    }
+    img{
+        width:400px;
+        border-radius: 20px;
+        
+    }
+    h1{
+        font-family: 'Lobster', cursive;
+        font-size: 5rem;
+        text-align: center;
+        padding-bottom: 1rem;
+    }
+    .lastname{
+        color: #fff;
+    }
+    h2{
+        font-family: 'Lobster', cursive;
+        font-size: 2.4rem;
+        color: #fff;
+       
+    }
+    .stanlee-img{
+        text-align: center;
+    }
+    .info, .marvel{
+        padding: 1rem 2rem 0 2rem;
+        font-size: 1.2rem;
+        text-align: justify;
+        line-height: 2rem;
+    }
+    #unorderedlist{
+        margin: 2rem;
+        li{
+            font-size: 1.2rem;
+            line-height: 2.4rem;
+        }
+    }
+    
+                 
+    .btn{
+        background-image: linear-gradient(to right, #348F50 0%, #56B4D3  51%, #348F50  100%);
+        margin: 10px;
+        padding: 15px 45px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        }
+    .btn:hover{
+        background-position: right center; 
+        color: #fff;
+        text-decoration: none;
+        }
+    a{
+        text-decoration: none;
+        color: #fff;
+    }
+         
+         
+
+    
+
+}
