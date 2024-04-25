@@ -8,10 +8,15 @@
 
 html {
   background-image: url(Grade\ Grey.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
   font-family: "Poppins", sans-serif;
 }
 html body {
   background-image: url(Royal\ Blue\ +\ Petrol.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   width: 80%;
   margin: 2rem auto;
   border-radius: 20px;
@@ -38,7 +43,8 @@ html h2 {
 html .stanlee-img {
   text-align: center;
 }
-html .info, html .marvel {
+html .info,
+html .marvel {
   padding: 1rem 2rem 0 2rem;
   font-size: 1.2rem;
   text-align: justify;
@@ -52,7 +58,7 @@ html #unorderedlist li {
   line-height: 2.4rem;
 }
 html .btn {
-  background-image: linear-gradient(to right, #348F50 0%, #56B4D3 51%, #348F50 100%);
+  background-image: linear-gradient(to right, #348f50 0%, #56b4d3 51%, #348f50 100%);
   margin: 10px;
   padding: 15px 45px;
   text-align: center;
